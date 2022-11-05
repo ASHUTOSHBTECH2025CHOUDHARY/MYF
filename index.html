@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: cursive;
+            margin: 0px;
+            padding:0px;
+            background: url(/img.jpg);            
+            background-attachment: fixed;            
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        .right{
+            display: inline-block;
+            color: white;
+            /* border: 2px solid green; */
+            position: absolute;
+            line-height: 0px;
+            left: 33px;
+            top: 12px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .mid{
+            color: white;
+            display: block;
+            width: 48%;
+            margin: 12px auto;
+            padding-left: 50px;
+            /* border:2px solid yellow; */
+        }
+        .left{
+            position: absolute;
+            right: 33px;
+            top: 15px;
+            display: inline-block;
+            color: white;
+            /* border: 1px solid grey; */
+            border-radius: 3px;
+        }
+        img{
+            width: 50px;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 25px;
+        }
+        .navbar li a{
+            color: white;
+            /* text-decoration:none; */
+            padding: 25px 15px;
+        }
+        .navbar li a:hover{
+            color: grey;
+            background-color: white;
+        }
+        .contact{
+            background-color: black;
+            padding: 14px;
+        }
+        .contact a{
+            font-family: cursive;
+            color: white;
+            font-size: 10px;
+            background-color:black;
+            text-decoration: none;
+        }
+        .contact a:hover{
+            color: grey;
+            text-decoration: underline;
+        }
+        .form{
+            border: 2px solid white;
+            color: white;
+            display: inline-block;
+            margin: 250px 50px;
+            width:500px;
+            border-radius: 50px;
+        }
+        .form{
+            /* position: relat; */
+            text-align: center;
+            font-size:25px;
+        }
+        .form input{
+            text-align: center;
+            display: block;
+            width: 350px;
+            font-family:cursive;
+            margin: 12px auto;
+            border: 2px solid grey ;
+            border-radius: 10px;
+        }
+        .form button{
+            text-align: center;
+            display: block;
+            width: 350px;
+            color: white;
+            margin: 12px auto;
+            font-family:cursive;
+            border: 2px solid black ;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: black;
+        }
+        .form button:hover{
+            background-color:grey;
+        }
+        .moto{
+            float: right;
+            display: inline-block;
+            color: white;
+            font-size: 25px;
+            margin: 200px 50px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="right">
+            <img src="/dumbell.png" alt="">
+            <p>MYF</p>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">GYM Tour</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </div>
+        <div class="left">
+            <button class="contact"> <a href="mailto:ashutoshchoudhary12354@gmail.com">Contact us</a></button>
+        </div>
+    </header>
+    <div class="form">
+        <h3>MY FITNESS GYM</h3>
+        <form action="action.php">
+            <input type="text" placeholder="Enter Your Name">
+            <input type="text" placeholder="Enter Age">
+            <input type="text" placeholder="Contact No.">
+            <input type="text" placeholder="Weight">
+            <input type="text" placeholder="Gender">
+                <button> SUBMIT</button>
+        </form>
+    </div>
+    <div class="moto">
+        <h2>STAY</h2>
+        <h2>STRONG</h2>
+        <h2>LIVE</h2>
+        <h2>LONG</h2>
+        <h2>.......</h2>
+    </div>
+</body>
+</html>
